@@ -7,6 +7,8 @@ import {
   addArgsEnhancer,
 } from "@storybook/react-native";
 
+import "@storybook/addon-ondevice-controls/register";
+
 import { decorators, parameters } from "./preview";
 
 if (decorators) {
