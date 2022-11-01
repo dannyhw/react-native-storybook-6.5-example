@@ -3,7 +3,7 @@ import {getStorybookUI} from '@storybook/react-native';
 import './storybook.requires';
 
 const StorybookUIRoot = getStorybookUI({
-  shouldPersistSelection: false,
+  shouldPersistSelection: true,
 });
 
 export default StorybookUIRoot;
